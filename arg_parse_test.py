@@ -7,6 +7,7 @@ def main():
     parser.add_argument("--y", type=int, help="the exponent")
     args = parser.parse_args()
     print(args.x**args.y)
+    print(args.x + args.y)
 
 
 if __name__ == "__main__":
